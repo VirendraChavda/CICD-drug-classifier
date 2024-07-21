@@ -42,7 +42,7 @@ examples = [
 
 title = "Drug prediction based on patient details"
 description = "Enter the details to correctly identify Drug type:"
-#article = "This app is a part of the **[Beginner's Guide to CI/CD for Machine Learning](https://www.datacamp.com/tutorial/ci-cd-for-machine-learning)**. It teaches how to automate training, evaluation, and deployment of models to Hugging Face using GitHub Actions."
+article = "This app is a personal project to automate training, evaluation, and deployment of models to Hugging Face using GitHub Actions."
 
 
 gr.Interface(
