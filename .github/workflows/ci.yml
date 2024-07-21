@@ -11,8 +11,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: iterative/setup-cml@v2
+      - uses: actions/checkout@v4
+      - uses: iterative/setup-cml@v3
       - name: Install Packages
         run: make install
       - name: Format
@@ -26,5 +26,5 @@ jobs:
       - name: Update Branch
         env:
           NAME: ${{ secrets.USER_NAME }}
-          EMAIL: ${{ secrets.USER_EMAIL }}
+          EMAIL: ${{ secrets.USER_MAIL }}
         run: make update-branch USER_NAME=$NAME USER_EMAIL=$EMAIL
