@@ -1,5 +1,6 @@
 # Drug Classifier
 [![Open Drug Classifier App](./app_icon.jpeg)](https://huggingface.co/spaces/VirendraChavda/Drug_Classifier)
+
 Open the app in hugging face.
 
 ## Project Description
