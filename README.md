@@ -99,6 +99,8 @@ The classification model achieves high accuracy on the test set. Below is a conf
 
 The model correctly classifies the majority of drug types, with minor misclassifications observed between DrugC and DrugX.
 
+![Result](cm.png)
+
 ## Future Work
 
 ### Model Improvement
