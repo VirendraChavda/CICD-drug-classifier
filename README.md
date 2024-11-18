@@ -1,5 +1,5 @@
 # Drug Prediction App [Click Here](https://huggingface.co/spaces/VirendraChavda/Drug_Classifier)
-### Author: Your Name
+### Author: Virendrasinh Chavda
 
 <p align="justify">
 This repository contains a machine learning-powered web application for predicting suitable drugs for patients based on their medical details such as age, sex, blood pressure, cholesterol, and sodium-to-potassium ratio. The project uses a trained classification pipeline and deploys it through a user-friendly interface built with <strong>Gradio</strong>.
@@ -35,7 +35,7 @@ The project uses <strong>scikit-learn</strong> for building and training the mac
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/drug-prediction-app.git
+   git clone https://github.com/VirendraChavda/CICD-drug-classifier.git
    cd drug-prediction-app
    ```
 2. Create a virtual environment and activate it:
